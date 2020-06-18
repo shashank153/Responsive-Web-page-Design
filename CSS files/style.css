@@ -1,0 +1,116 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#aacfcf;
+}
+
+/* header section */
+#heading{
+    background-color:#00909e;
+    text-align: center;
+    padding: 15px;
+}
+header h1{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Navbar Section */
+.navbar{
+    margin: 2% 0 1% ;
+}
+.navbar-brand{
+    font-family: 'Lemonada', cursive;
+    font-size:1.5rem;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    font-weight:400;
+}
+
+/* BannerImage Section */
+#bannerImage{
+    margin-top: 5%;
+    padding: 3% 0 7%;
+}
+.Banner{
+    width: 100%;
+}
+.BannerText{
+    padding-top:1%;
+}
+.BannerText h1{
+    color:#ffffff;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+    padding: 0 2% 3% 3% ;
+    
+}
+.BannerImages{
+    right:3%;
+}
+.contactButton{
+ margin-left: 1rem;
+ /* padding: 0; */
+}
+.mobileIcon{
+    margin-right: 1rem;
+}
+
+/* about us section */
+
+#aboutUs{
+    background-color: #ffffff;
+    padding: 8% 10% 7%;
+}
+.features{
+    text-align: center;
+    padding: 2%;
+}
+.features h1{
+    font-size: 2.0 rem;
+    font-weight: 700;
+     padding: 3%;
+    margin:0 0 7%;
+    color: #00909e;
+}
+
+.featuresIcon{
+    /* padding: 10%; */
+    margin-bottom: 1.5rem;
+    color:  #00909e;
+}
+.featuresIcon:hover{
+    color:#aacfcf;
+}
+/* Footer Section */
+#footer{
+    text-align: center;
+    padding: 5% 0 3%;
+    /* color:#ffffff; */
+}
+.footer-icon{
+    padding: 1.2%;
+    margin-bottom: 1.2rem;
+    
+}
+.footer-icon:hover{
+    color:#00909e;
+}
+@media(max-width:768px){
+    #bannerImage{
+        text-align: center;
+    }
+    .BannerText{
+        padding:10% 0;
+    }
+    .contactButton{
+        margin: auto;
+    }
+    .BannerImages{
+       
+    }
+}
