@@ -29,6 +29,13 @@ header h1{
 .nav-link{
     font-weight:400;
 }
+/* log In Button */
+.logIn{
+   margin-left: 10px;
+}
+.logInIcon{
+margin-right: 10px;
+}
 
 /* BannerImage Section */
 #bannerImage{
@@ -49,9 +56,9 @@ header h1{
     padding: 0 2% 3% 3% ;
     
 }
-.BannerImages{
+/* .BannerImages{
     right:3%;
-}
+} */
 .contactButton{
  margin-left: 1rem;
  /* padding: 0; */
